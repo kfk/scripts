@@ -29,12 +29,12 @@ def girlsBoys(_random=True):
 	return boys,girls,girlsPickBoys,rankings
 
 def cupidoMatches(boys,girls,girlsPickBoys,rankings):
-	#matches happen!
 	pickedBoys = []
 	matchesScore = 0
 	matches = []
 	for girl in girls:
-		#We explore all the best rankings starting from 1 (i+1). If a boy is not already picked, it will be matched with the girl
+		#We explore all the best rankings starting from 1 (i+1). 
+		#If a boy is not already picked, it will be matched with the girl
 		for i in range(n):
 			match = girlsPickBoys[girl][i+1]
 			if match not in pickedBoys:
