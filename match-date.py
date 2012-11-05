@@ -1,7 +1,24 @@
+
+#There are 100 girls and 100 guys. 
+#The girls each have their individual 
+#preference list for which guy they’d 
+#like to marry. Each list contains all 
+#100 guys in the order of the girl’s 
+#preference. We’d like to match them 
+#up as well as we can according to their 
+#preferences. To measure how well we’re 
+#doing, we assign each match a number: 
+#the number of the guy on the girl’s 
+#preference list. So if a girl gets 
+#to marry her 2nd choice, for example, 
+#we assign the number two. We’d like 
+#to keep the sum of numbers for all 
+#the matches as small as possible. 
+#What is the number we’ll get in the WORST case?
+#import random, argparse, unittest, sys, argparse
+
 #To run the script: python match-date.py. To run tests: python match-date.py -t
 #The WORST case scenarion is tested. 
-
-import random, argparse, unittest, sys, argparse
 
 n = 100
 
